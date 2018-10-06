@@ -5,12 +5,12 @@ int main()
 	int *ptrToi;           /* Puntero a entero */
 	int **ptrToPtrToi;     /* Puntero a puntero a entero */
 
-	ptrToPtrToi = &ptrToi; /* Puntero contiene direcci髇 de puntero */
-	ptrToi = &i;           /* Puntero contiene direcci髇 de entero */
+	ptrToPtrToi = &ptrToi; /* Puntero contiene direcci贸n de puntero */
+	ptrToi = &i;           /* Puntero contiene direcci贸n de entero */
 
-	i = 10;                /* Asignaci髇 directa */
-	*ptrToi = 20;          /* Asignaci髇 indirecta */
-	**ptrToPtrToi = 30;    /* Asignaci髇 con doble indirecci髇 */
+	i = 10;                /* Asignaci贸n directa */
+	*ptrToi = 20;          /* Asignaci贸n indirecta */
+	**ptrToPtrToi = 30;    /* Asignaci貌n con doble indirecci贸n */
 
 	return 0;
 }
